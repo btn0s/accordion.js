@@ -231,14 +231,23 @@ h2 {
 .open {
   margin-top: 15rem !important; }
 
+.subtxt {
+  z-index: -1;
+  position: fixed;
+  left: 50%;
+  top: 26rem;
+  -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #6699ff;
+  font-size: 2rem; }
+
 .menu {
   margin: 10%;
   margin-top: 20rem;
   background: #272727;
   transition: all 0.5s ease;
   border-radius: 0.5rem; }
-  .menu .subtitle {
-    color: #5a5a5a; }
   .menu .title h1 .fa {
     font-size: 2rem;
     margin: 1rem;
